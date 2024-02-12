@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="DataAccess\" />
-    <Folder Include="Business\" />
   </ItemGroup>
 
 </Project>
