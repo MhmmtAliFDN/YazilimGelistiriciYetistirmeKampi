@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workaround", "Workaround\Workaround.csproj", "{DBFBDB38-6DA6-4FA3-A16E-5DFCEEE7654B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{45F14688-7054-43F3-B873-B07FBD52C32C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{ADC3DC11-AF8D-430C-A7E2-8B5BE42038A9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFBDB38-6DA6-4FA3-A16E-5DFCEEE7654B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFBDB38-6DA6-4FA3-A16E-5DFCEEE7654B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFBDB38-6DA6-4FA3-A16E-5DFCEEE7654B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFBDB38-6DA6-4FA3-A16E-5DFCEEE7654B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F14688-7054-43F3-B873-B07FBD52C32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F14688-7054-43F3-B873-B07FBD52C32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F14688-7054-43F3-B873-B07FBD52C32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F14688-7054-43F3-B873-B07FBD52C32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC3DC11-AF8D-430C-A7E2-8B5BE42038A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC3DC11-AF8D-430C-A7E2-8B5BE42038A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC3DC11-AF8D-430C-A7E2-8B5BE42038A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC3DC11-AF8D-430C-A7E2-8B5BE42038A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
